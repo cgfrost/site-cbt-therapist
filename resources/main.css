@@ -1,0 +1,147 @@
+@import "/common/reset.css";
+@import url(http://fonts.googleapis.com/css?family=Poly);
+
+body {
+	background-color: #AFD5ED;
+    color: #222222;
+	font-family: 'Poly', Cambria, Georgia, Times, 'Times New Roman', serif;
+	font-size: 11pt;
+	line-height: 1.4;
+    margin: 0 0 50px 0;
+}
+
+.panel{
+    width: 900px;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+#logo {
+	line-height: 1;
+    text-align: center;
+}
+
+#line1 {
+	font-size: 67px;
+}
+
+#line2 {
+	font-size: 89px;
+}
+
+#line3 {
+	font-size: 20px;
+	line-height: 2;
+}
+
+#line4 {
+	font-size: 14px;
+	line-height: 1;
+}
+
+#menu {
+	text-align: center;
+    background-color: #FFFFFF;
+}
+
+#menu .panel {
+    border-bottom: 1px solid #AFD5ED;
+}
+
+.menu-item {
+    font-size: 20px;
+	cursor: pointer;
+	display: inline;
+	margin: 0 20px;
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+.selected {
+	text-decoration: underline;
+}
+
+
+h1 {
+	font-size: 25px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+a, a:visited, a:visited, a:hover {
+	color: #333333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.experience td {
+	padding: 0 10px 0 0;
+	vertical-align: top;
+    width: 50%;
+}
+
+#content {
+    background-color: #FFFFFF;
+}
+
+#content .panel {
+    min-height: 200px;
+    padding: 25px;
+}
+
+#content a, #content a:visited, #content a:visited, #content a:hover {
+    color: #044769;
+}
+#content table {
+    width: 100%;
+}
+
+#content ul {
+	margin: 12px 0 12px;
+	padding-left: 20px;
+}
+
+#content ol, #content li {
+    list-style: square outside none;
+    margin-bottom: 3px;
+}
+
+#content table li:hover {
+    background-color: #caecff;
+}
+
+.image {
+	border: 1px solid #AFD5ED;
+	float: right;
+	margin: 6px 0 6px 16px;
+}
+
+#head-shot {
+    height: 240px;
+}
+
+.hide-me {
+	display: none;
+}
+
+@media screen and (max-width:900px) {
+    .panel{
+        width: auto;
+    }
+}
