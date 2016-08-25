@@ -1,24 +1,24 @@
-@import "/common/reset.css";
+@import "normalize.css" print, screen, projection;
 @import url(http://fonts.googleapis.com/css?family=Poly);
 
 body {
 	background-color: #AFD5ED;
-    color: #222222;
+	color: #222222;
 	font-family: 'Poly', Cambria, Georgia, Times, 'Times New Roman', serif;
 	font-size: 11pt;
 	line-height: 1.4;
-    margin: 0 0 50px 0;
+	margin: 0 0 50px 0;
 }
 
 .panel{
-    width: 900px;
-    margin: 0 auto;
-    padding: 25px 0;
+	width: 900px;
+	margin: 0 auto;
+	padding: 25px 0;
 }
 
 #logo {
 	line-height: 1;
-    text-align: center;
+	text-align: center;
 }
 
 #line1 {
@@ -39,28 +39,31 @@ body {
 	line-height: 1;
 }
 
-#menu {
+nav {
 	text-align: center;
-    background-color: #FFFFFF;
+	background-color: #FFFFFF;
 }
 
-#menu .panel {
-    border-bottom: 1px solid #AFD5ED;
+nav .panel {
+	border-bottom: 1px solid #AFD5ED;
 }
 
 .menu-item {
-    font-size: 20px;
+	font-size: 20px;
 	cursor: pointer;
 	display: inline;
 	margin: 0 20px;
-    white-space: nowrap;
-    vertical-align: top;
+	white-space: nowrap;
+	vertical-align: top;
 }
 
 .selected {
 	text-decoration: underline;
 }
 
+.menu-item a {
+	text-decoration: none;
+}
 
 h1 {
 	font-size: 25px;
@@ -79,7 +82,7 @@ h3 {
 }
 
 p {
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 a, a:visited, a:visited, a:hover {
@@ -87,43 +90,44 @@ a, a:visited, a:visited, a:hover {
 }
 
 a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 .experience td {
 	padding: 0 10px 0 0;
 	vertical-align: top;
-    width: 50%;
+	width: 50%;
 }
 
-#content {
-    background-color: #FFFFFF;
+main {
+	background-color: #FFFFFF;
 }
 
-#content .panel {
-    min-height: 200px;
-    padding: 25px;
+main .panel {
+	min-height: 200px;
+	padding: 25px;
 }
 
-#content a, #content a:visited, #content a:visited, #content a:hover {
-    color: #044769;
-}
-#content table {
-    width: 100%;
+main a, main a:visited, main a:visited, main a:hover {
+	color: #044769;
 }
 
-#content ul {
+main table {
+	width: 100%;
+}
+
+main ul {
 	margin: 12px 0 12px;
 	padding-left: 20px;
 }
 
-#content ol, #content li {
-    list-style: square outside none;
-    margin-bottom: 3px;
+main ol, main li {
+	list-style: square outside none;
+	margin-bottom: 3px;
 }
 
-#content table li:hover {
-    background-color: #caecff;
+main table li:hover {
+	background-color: #caecff;
 }
 
 .image {
@@ -133,7 +137,7 @@ a:hover {
 }
 
 #head-shot {
-    height: 240px;
+	height: 240px;
 }
 
 .hide-me {
@@ -141,7 +145,7 @@ a:hover {
 }
 
 @media screen and (max-width:900px) {
-    .panel{
-        width: auto;
-    }
+	.panel{
+		width: auto;
+  }
 }
