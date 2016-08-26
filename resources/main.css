@@ -144,6 +144,14 @@ main table li:hover {
 	display: none;
 }
 
+footer {
+	text-align: center;
+	padding-top: 10px;
+	color: slategray ;
+	font-size: 9pt;
+	line-height: 1;
+}
+
 @media screen and (max-width:900px) {
 	.panel{
 		width: auto;
