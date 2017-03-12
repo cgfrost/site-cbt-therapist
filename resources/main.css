@@ -155,7 +155,22 @@ footer {
 }
 
 @media screen and (max-width:900px) {
-	.panel{
+    .panel{
 		width: auto;
-  }
+    }
+}
+
+@media print {
+    body {
+	    background-color: #FFFFFF;
+    }
+
+    .panel {
+    	width: 95%;
+    }
+
+    nav {
+        display: none;
+    }
+
 }
