@@ -4,9 +4,9 @@
 /* poly-regular - latin */
 @font-face {
   font-family: 'Poly';
+  font-display: block;
   font-style: normal;
   font-weight: 400;
-  font-display: auto;
   src: url('/resources/poly-v9-latin-regular.eot'); /* IE9 Compat Modes */
   src: local('Poly-Regular'),
        url('/resources/poly-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
