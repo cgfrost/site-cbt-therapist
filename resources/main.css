@@ -1,6 +1,5 @@
 @charset "UTF-8";
 @import "normalize.css" print, screen, projection;
-@import url(https://fonts.googleapis.com/css?family=Poly);
 
 body {
 	background-color: #AFD5ED;
